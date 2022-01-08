@@ -1,0 +1,57 @@
+  questions: [
+        {
+          question: "Inside which HTML element do we put the JavaScript ?",
+          suggestions: [
+            { suggestion: "<script>", correct: true },
+            { suggestion: "<js>" },
+            { suggestion: "<scripting>" },
+            { suggestion: "<javascript>" },
+          ],
+        },
+        {
+          question:
+            "What is the correct syntax for referring to an external script called 'xxx.js' ?",
+          suggestions: [
+            { suggestion: '<script href="xxx.js">' },
+            { suggestion: '<script name="xxx.js">' },
+            { suggestion: '<script src="xxx.js">', correct: true },
+            { suggestion: '<script id="xxx.js">' },
+          ],
+        },
+        {
+          question: "How do you write 'Hello World' in an alert box ?",
+          suggestions: [
+            { suggestion: 'msg("Hello World")' },
+            { suggestion: 'alertBox("Hello World")' },
+            { suggestion: 'alert("Hello World")', correct: true },
+            { suggestion: 'msgBox("Hello World")' },
+          ],
+        },
+        {
+          question: "How to write an IF statement in JavaScript ?",
+          suggestions: [
+            { suggestion: "if i = 5 then" },
+            { suggestion: "if (i == 5)", correct: true },
+            { suggestion: "if i == 5 then" },
+            { suggestion: "if i = 5" },
+          ],
+        },
+        {
+          question: "How does a FOR loop start ?",
+          suggestions: [
+            { suggestion: "for i = 1 to 5" },
+            { suggestion: "for (i <= 5; i++)" },
+            { suggestion: "for (i = 0; i <= 5)" },
+            { suggestion: "for (i = 0; i <= 5; i++)", correct: true },
+          ],
+        },
+        {
+          question: "How can you add a comment in a JavaScript ?",
+          suggestions: [
+            { suggestion: "'This is a comment" },
+            { suggestion: "//This is a comment", correct: true },
+            { suggestion: "<!--This is a comment-->" },
+            { suggestion: "*This is a comment" },
+          ],
+        },
+      ],
