@@ -9,7 +9,7 @@
           <div class="box" v-for="(question,index) in questions.slice(a,b)" :key="index" v-show="quiz">
               
               <div class="box-question">
-                <h2>Question {{b}}/{{questions.length}}</h2>
+                <h2>Questão {{b}}/{{questions.length}}</h2>
                 <p>{{question.question}}</p>
               </div>
               <div class="box-propositions">
