@@ -55,7 +55,7 @@ export default {
 
       questions:[
         {
-          question:"Inside which HTML element do we put the JavaScript ?",
+          question:"Dentro de qual elemento HTML colocamos o JavaScript?",
           propositions:[
             {props:'<script>',correct:true},
             {props:'<js>'},
@@ -64,7 +64,7 @@ export default {
           ]
         },
         {
-          question:"What is the correct syntax for referring to an external script called 'xxx.js' ?",
+          question:"Qual é a sintaxe correta para se referir a um script externo chamado 'xxx.js'?",
           propositions:[
             {props:'<script href="xxx.js">',},
             {props:'<script name="xxx.js">',},
@@ -75,7 +75,7 @@ export default {
           
         },
         {
-          question:"How do you write 'Hello World' in an alert box ?",
+          question:"Como você escreve 'Hello World' em uma caixa de alerta?",
           propositions:[
             {props:'msg("Hello World")'},
             {props:'alertBox("Hello World")'},
@@ -87,7 +87,7 @@ export default {
           
         },
         {
-          question:"How to write an IF statement in JavaScript ?",
+          question:"Como escrever uma instrução IF em JavaScript?",
           propositions:[
             {props:'if i = 5 then',},
             {props:'if (i == 5)',correct:true},
@@ -99,7 +99,7 @@ export default {
           
         },
         {
-          question:"How does a FOR loop start ?",
+          question:"Como inicia um loop FOR?",
           propositions:[
             {props:'for i = 1 to 5',},
             {props:'for (i <= 5; i++)'},
@@ -110,7 +110,7 @@ export default {
           
         },
         {
-          question:"How can you add a comment in a JavaScript ?",
+          question:"Como você pode adicionar um comentário em um JavaScript?",
           propositions:[
             {props:"'This is a comment"},
             {props:'//This is a comment',correct:true},
