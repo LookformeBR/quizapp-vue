@@ -4,6 +4,8 @@
 
 Desenvolvimento de aplicativo de quiz com Vuejs, um simples app de quiz, onde a cada repostas é contabilizada para que no final possa ser contabilizado  quantas perguntas você acertou, existe uma opção de pular a pergunta e recomeçar o jogo.
 
+ <img width="100%" style="border-radius: 5px" height="auto" src="https://hylla.com.br/gif/quizapp.gif" alt="Intro">
+
 ## Project setup
 ```
 npm install
